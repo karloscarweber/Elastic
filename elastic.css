@@ -1,0 +1,60 @@
+/* elastic.css */
+
+/* Elasti-container */
+
+/*
+	max width for a single column:520px;
+	max width: 1080px;
+	gutter:40px;
+*/
+.elastic-container {
+	max-width:1080px;
+	width:100%;
+	margin:0 auto;
+}
+.elastic-container > div.single {
+	margin:0 auto;
+	width:100%;
+	max-width:520px;
+	padding: 0px 10px;
+	box-sizing:border-box;
+}
+.elastic-container > div.full {
+	width:100%;
+	padding: 0px 10px;
+	box-sizing:border-box;
+}
+.elastic {
+	zoom:1;
+}
+.elastic > div {
+	min-width:320px;
+	max-width:520px;
+	width:50%;
+	box-sizing:border-box;
+	padding:0px 10px;
+	margin:0 0 2em;
+}
+.elastic > div:first-child {
+	float:left;
+	padding-right:20px;
+}
+.elastic > div:last-child {
+	float:right;
+	padding-left:20px;
+}
+.elastic.reverse>div:first-child{float:right;padding-right:10px;padding-left:20px}
+.elastic.reverse>div:last-child{float:left;padding-right:20px;padding-left:10px}
+.elastic:before, .elastic:after {content:"";display: table}
+.elastic:after{clear:both;}
+@media all and (max-width:660px){
+	.elastic {
+		margin-bottom:1em;
+	}
+	.elastic > div:first-child, .elastic > div:last-child {
+		width:100%;
+		float:none;
+		padding: 0px 10px !important;
+		margin:0 auto 2em;
+	}
+}
