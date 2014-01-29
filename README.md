@@ -9,8 +9,8 @@ The Idea behind Elastic comes from the excellent Grater by Sams Soffes. I wanted
 <div class="row">
 	<div class="elastic-container">
 		<div class="Elastic">
-			<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-			<div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+			<div><p>Lorem ipsum dolor sit amet.</p></div>
+			<div><p>Lorem ipsum dolor sit amet.</p></div>
 		</div>
 	</div>
 </div>
@@ -28,9 +28,9 @@ Elastic isn't compatible with IE8 or below. But you know, whatever.
 
 ## Todo
 
-[ ] Begin Versioning
-[ ] Installation Instructions
-[ ] Sass syntax, and compiled versions
-[ ] Descriptive Images
-[ ] github-pages usage guide.
+- [ ] Begin Versioning
+- [ ] Installation Instructions
+- [ ] Sass syntax, and compiled versions
+- [ ] Descriptive Images
+- [ ] github-pages usage guide.
 
