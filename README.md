@@ -8,7 +8,7 @@ The Idea behind Elastic comes from the excellent Grater by Sams Soffes. I wanted
 ```html
 <div class="row">
 	<div class="elastic-container">
-		<div class="Elastic">
+		<div class="elastic">
 			<div><p>Lorem ipsum dolor sit amet.</p></div>
 			<div><p>Lorem ipsum dolor sit amet.</p></div>
 		</div>
@@ -23,8 +23,7 @@ The Columns are built using precise percent widths. To make gutters and margins 
 
 ## Compatability
 
-Elastic isn't compatible with IE8 or below. But you know, whatever. 
-
+Elastic isn't compatible with IE8 or below. But you know, whatever.
 
 ## Todo
 
@@ -33,4 +32,3 @@ Elastic isn't compatible with IE8 or below. But you know, whatever.
 - [ ] Sass syntax, and compiled versions
 - [ ] Descriptive Images
 - [ ] github-pages usage guide.
-
