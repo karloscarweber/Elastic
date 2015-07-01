@@ -14,8 +14,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/karloscarweber/Elastic.git"
-  }
-
-
-
+  },
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
 }
